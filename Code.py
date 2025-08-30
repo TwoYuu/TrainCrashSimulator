@@ -136,12 +136,21 @@ def decide_damage():
     relative_speed = abs(train_a_velocity - train_b_velocity)
     impact_force = relative_speed
 
+    #if impact_force < 5.5:
+    #    damage_level = "light"
+    #elif impact_force < 9:
+    #    damage_level = "medium"
+    #elif impact_force < 13
+    #    damage_level = "heavy"
+    #else:
+    #    damage_level = "obliterated"
     if impact_force < 5.5:
         damage_level = "light"
     elif impact_force < 9:
         damage_level = "medium"
     else:
         damage_level = "heavy"
+
 
 def draw_crash_info():
     crash_msg = f"💥 Train Crash! Severity: {damage_level.upper()}"

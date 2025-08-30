@@ -2,7 +2,7 @@
 # Game constants and configuration
 
 # Screen setup
-WIDTH, HEIGHT = 2000, 600  # Wide screen for more space
+WIDTH, HEIGHT = 1500, 600  # Wide screen for more space
 
 # Colors
 GRAY = (80, 80, 80)
